@@ -24,7 +24,7 @@ export async function POST(req: Request) {
   const recipient = process.env.BOOKING_NOTIFICATION_EMAIL;
   const apiKey = process.env.RESEND_API_KEY;
 
-  if (apiKey && recipient) {
+  if (apiKey && apiKey.startsWith("re_") && recipient) {
     try {
       const html = renderBookingEmail(body);
       const res = await fetch("https://api.resend.com/emails", {
