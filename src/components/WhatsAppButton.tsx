@@ -6,32 +6,32 @@ import { X } from "lucide-react";
 const PHONE = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "4915679384731";
 
 const WA_MESSAGES: Record<string, string> = {
-  fr: `Bonjour CareerBridge 👋
+  fr: `Bonjour CareerBridge,
 
-Je souhaite en savoir plus sur vos services. Dites-moi ce qui vous intéresse :
+Je souhaite en savoir plus sur vos services. Pourriez-vous m'informer sur :
 
-1️⃣ LinkedIn & Marque Personnelle
-2️⃣ Boost Carrière 💼
+- LinkedIn & Marque Personnelle
+- Boost Carriere
 
-Répondez avec le numéro de votre choix 👇`,
+Merci.`,
 
-  ar: `مرحباً CareerBridge 👋
+  ar: `مرحباً CareerBridge،
 
-أود الاستفسار عن خدماتكم. أخبرني بما يهمك:
+أود الاستفسار عن خدماتكم، هل يمكنكم إعلامي بتفاصيل:
 
-1️⃣ LinkedIn والعلامة الشخصية
-2️⃣ تطوير المسيرة المهنية 💼
+- LinkedIn والعلامة الشخصية
+- تطوير المسيرة المهنية
 
-أجب برقم اختيارك 👇`,
+شكراً.`,
 
-  en: `Hello CareerBridge 👋
+  en: `Hello CareerBridge,
 
-I'd like to know more about your services. Please tell me what interests you:
+I would like to know more about your services. Could you provide details on:
 
-1️⃣ LinkedIn & Personal Brand
-2️⃣ Career Boost 💼
+- LinkedIn & Personal Brand
+- Career Boost
 
-Reply with your choice number 👇`,
+Thank you.`,
 };
 
 export function WhatsAppButton({ locale }: { locale: string }) {
