@@ -17,12 +17,22 @@ export function BookingForm({ locale }: { locale: string }) {
   const [selectedPackage, setSelectedPackage] = useState("");
 
   useEffect(() => {
+    // Read initial hash params (e.g. direct URL)
     const hash = window.location.hash;
     const params = new URLSearchParams(hash.split("?")[1] ?? "");
     const svc = params.get("service") as Track | null;
     const pkg = params.get("package");
     if (svc === "linkedin" || svc === "career") setSelectedService(svc);
     if (pkg) setSelectedPackage(pkg);
+
+    // Listen for package selection from the Packages section
+    function onSelect(e: Event) {
+      const { service, pkg: p } = (e as CustomEvent<{ service: Track; pkg: string }>).detail;
+      if (service === "linkedin" || service === "career") setSelectedService(service);
+      if (p) setSelectedPackage(p);
+    }
+    window.addEventListener("select-package", onSelect);
+    return () => window.removeEventListener("select-package", onSelect);
   }, []);
 
   const availablePackages = selectedService ? tiers[selectedService] : [];

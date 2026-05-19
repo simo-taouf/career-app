@@ -87,14 +87,24 @@ export function Packages() {
                   ))}
                 </ul>
 
-                <a
-                  href={`#booking?service=${active}&package=${tier}`}
+                <button
+                  type="button"
+                  onClick={() => {
+                    window.dispatchEvent(
+                      new CustomEvent("select-package", {
+                        detail: { service: active, pkg: tier },
+                      })
+                    );
+                    document
+                      .getElementById("booking")
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }}
                   className={`mt-7 ${
                     isPopular ? "btn-primary" : "btn-secondary"
                   } w-full justify-center`}
                 >
                   {t("select")}
-                </a>
+                </button>
               </article>
             );
           })}
