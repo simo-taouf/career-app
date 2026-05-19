@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "CareerBridge — Boost your career and LinkedIn profile",
+    "description": "Professional support for job search, LinkedIn optimization and CV writing. Services available in French, Arabic and English.",
+    "ogAlt": "CareerBridge — Your bridge to a new career"
+  },
+  "nav": {
+    "services": "Services",
+    "packages": "Packages",
+    "about": "About",
+    "booking": "Order",
+    "contact": "Contact",
+    "bookNow": "Order now"
+  },
+  "hero": {
+    "badge": "500+ candidates supported",
+    "title": "Your bridge to an international career",
+    "subtitle": "We help you land your dream job and optimize your LinkedIn profile — in French, Arabic or English.",
+    "ctaPrimary": "Explore packages",
+    "ctaSecondary": "Choose a package",
+    "stats": {
+      "clients": "Happy clients",
+      "countries": "Destination countries",
+      "rate": "Placement rate",
+      "years": "Years of experience"
+    },
+    "testimonialName": "Karim B.",
+    "testimonialRole": "Civil Engineer · Casablanca",
+    "testimonialItems": [
+      "CV optimized — 3x more callbacks",
+      "LinkedIn profile rewritten in 2 languages",
+      "Got a job offer in Frankfurt in 4 weeks"
+    ],
+    "testimonialDestinations": ["DE", "FR", "UK"]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Human guidance, real results",
+    "p1": "CareerBridge supports Moroccan and French-speaking talent in their professional projects. We combine European market expertise, local cultural understanding and personalized follow-up.",
+    "p2": "Whether you're looking for a job in Europe or a career repositioning, we build a stand-out application with you.",
+    "feature1Title": "Tailor-made",
+    "feature1Desc": "Every application is unique. No generic templates.",
+    "feature2Title": "Trilingual",
+    "feature2Desc": "All our services are available in French, Arabic and English.",
+    "feature3Title": "Results",
+    "feature3Desc": "We measure our success by yours — placement and satisfaction."
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "title": "Two tracks to move your career forward",
+    "subtitle": "Pick the path that matches your goal. Each track offers multiple support levels.",
+    "cta": "See packages",
+    "linkedin": {
+      "title": "LinkedIn & Personal Brand",
+      "description": "Full profile optimization, content strategy and professional network development."
+    },
+    "career": {
+      "title": "Career Boost",
+      "description": "Sharp CVs, cover letters, targeted applications and interview preparation."
+    }
+  },
+  "packages": {
+    "eyebrow": "Our packages",
+    "title": "Choose the package that fits your project",
+    "subtitle": "From essentials to premium support — multiple levels for each track.",
+    "popular": "Most popular",
+    "from": "From",
+    "select": "Choose this package",
+    "currency": "MAD",
+    "tabs": {
+      "linkedin": "LinkedIn",
+      "career": "Career"
+    },
+    "linkedin": {
+      "starter": {
+        "name": "Profile Refresh",
+        "price": "150 MAD",
+        "tagline": "Quick refresh",
+        "features": [
+          "Headline and About section rewrite",
+          "Experience optimization",
+          "Profile photo guidance",
+          "48-hour delivery"
+        ]
+      },
+      "pro": {
+        "name": "LinkedIn Pro",
+        "price": "300 MAD",
+        "tagline": "100% optimized profile",
+        "features": [
+          "Everything in Refresh",
+          "Custom banner",
+          "Skills and keyword SEO",
+          "5 outreach message templates",
+          "1 revision included"
+        ]
+      },
+      "premium": {
+        "name": "Personal Brand",
+        "price": "500 MAD",
+        "tagline": "Become a reference in your field",
+        "features": [
+          "Everything in Pro",
+          "Content calendar (4 weeks)",
+          "Outreach strategy",
+          "10 written post ideas",
+          "Monthly follow-up"
+        ]
+      }
+    },
+    "career": {
+      "starter": {
+        "name": "CV Essentials",
+        "price": "300 MAD",
+        "tagline": "The basics to start applying",
+        "features": [
+          "Professional CV (1 language)",
+          "Cover letter template",
+          "ATS-friendly layout tips",
+          "1 revision included"
+        ]
+      },
+      "pro": {
+        "name": "Boost Pro",
+        "price": "500 MAD",
+        "tagline": "To apply seriously",
+        "features": [
+          "CV in 2 languages",
+          "Full LinkedIn optimization",
+          "Personalized cover letter",
+          "List of 10 targeted offers",
+          "2 revisions included"
+        ]
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "A simple, transparent process",
+    "step1Title": "Choose your package",
+    "step1Desc": "Browse our offers and pick the package that fits your project.",
+    "step2Title": "Order online",
+    "step2Desc": "Fill in your details and complete the secure online payment.",
+    "step3Title": "Delivery",
+    "step3Desc": "We produce your deliverables with care and revise until you're satisfied.",
+    "step4Title": "Follow-up",
+    "step4Desc": "We stay available for questions and ongoing support."
+  },
+  "booking": {
+    "eyebrow": "Order",
+    "title": "Order your package",
+    "subtitle": "Select your service and package, then fill in your details to proceed to payment.",
+    "bullets": [
+      "Delivery within agreed timelines",
+      "Revisions included per your package",
+      "Support available after delivery"
+    ],
+    "sectionOrder": "Your order",
+    "sectionContact": "Your contact details",
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone (WhatsApp if possible)",
+    "service": "Desired service",
+    "selectService": "Select a service",
+    "linkedinService": "LinkedIn & Personal Brand",
+    "careerService": "Career Boost",
+    "package": "Package",
+    "selectPackage": "Select a package",
+    "consentLabel": "I agree that my personal data will be processed in accordance with Law 09-08 (CNDP — Morocco) and the GDPR for recipients in Europe, for the exclusive purpose of processing my order.",
+    "consentRequired": "You must accept the privacy policy to continue.",
+    "privacyLink": "Learn more about our privacy policy",
+    "submit": "Confirm & pay",
+    "submitting": "Sending...",
+    "successTitle": "Order confirmed!",
+    "successMessage": "Thank you. You will be redirected to payment.",
+    "errorTitle": "Error",
+    "errorMessage": "Something went wrong. Please try again or contact us directly."
+  },
+  "payment": {
+    "eyebrow": "Payment",
+    "title": "Simple & secure payment",
+    "subtitle": "Pay online in seconds. Visa, Mastercard, Apple Pay and Google Pay accepted.",
+    "cardDesc": "100% secure and encrypted payment. Your card details are never stored on our servers.",
+    "cardCta": "Pay now",
+    "secure": "Secure payment",
+    "encrypted": "SSL encrypted",
+    "noStorage": "No card stored",
+    "confirmNote": "After payment you'll receive a confirmation email. We start your service the same day."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "q1": "What languages do you work in?",
+    "a1": "We work in French, Arabic and English. You can choose the language of your deliverables.",
+    "q2": "How long does delivery take?",
+    "a2": "Between 48 hours (Refresh package) and 2 weeks (Boost Pro). The exact timeline is confirmed after your order.",
+    "q3": "Can I pay in installments?",
+    "a3": "Yes, for Pro and Personal Brand packages we offer 2 interest-free installments. Mention this when ordering.",
+    "q4": "Do you guarantee a job?",
+    "a4": "We guarantee a professional-quality application, not the final outcome which depends on many external factors. That said, our placement rate exceeds 70%.",
+    "q5": "Is my data protected?",
+    "a5": "Yes. Your data is processed in accordance with Law 09-08 (CNDP Morocco) and the European GDPR. It is used only to process your order and is never sold."
+  },
+  "footer": {
+    "tagline": "Your bridge to an international career.",
+    "rights": "All rights reserved.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Contact",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "imprint": "Imprint"
+  },
+  "language": {
+    "french": "Français",
+    "arabic": "العربية",
+    "english": "English"
+  }
+}

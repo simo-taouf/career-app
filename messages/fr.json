@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "CareerBridge — Boostez votre carrière et votre profil LinkedIn",
+    "description": "Accompagnement professionnel pour la recherche d'emploi, l'optimisation LinkedIn et la rédaction de CV. Services en français, arabe et anglais.",
+    "ogAlt": "CareerBridge — Votre passerelle vers une nouvelle carrière"
+  },
+  "nav": {
+    "services": "Services",
+    "packages": "Forfaits",
+    "about": "À propos",
+    "booking": "Commander",
+    "contact": "Contact",
+    "bookNow": "Commander"
+  },
+  "hero": {
+    "badge": "+500 candidats accompagnés",
+    "title": "Votre passerelle vers une carrière à l'international",
+    "subtitle": "Nous vous aidons à décrocher l'emploi de vos rêves et à optimiser votre profil LinkedIn — en français, arabe ou anglais.",
+    "ctaPrimary": "Découvrir les forfaits",
+    "ctaSecondary": "Choisir un forfait",
+    "stats": {
+      "clients": "Clients satisfaits",
+      "countries": "Pays de destination",
+      "rate": "Taux de placement",
+      "years": "Années d'expérience"
+    },
+    "testimonialName": "Karim B.",
+    "testimonialRole": "Ingénieur Civil · Casablanca",
+    "testimonialItems": [
+      "CV optimisé — 3x plus de réponses",
+      "Profil LinkedIn réécrit en 2 langues",
+      "Emploi décroché à Francfort en 4 semaines"
+    ],
+    "testimonialDestinations": ["DE", "FR", "UK"]
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Un accompagnement humain, des résultats concrets",
+    "p1": "CareerBridge accompagne les talents marocains et francophones dans leurs projets professionnels. Nous combinons expertise du marché européen, maîtrise des codes culturels locaux et un suivi personnalisé.",
+    "p2": "Que vous cherchiez un emploi en Europe ou un repositionnement de carrière, nous construisons avec vous un dossier qui vous démarque.",
+    "feature1Title": "Sur-mesure",
+    "feature1Desc": "Chaque dossier est unique. Pas de modèle générique.",
+    "feature2Title": "Trilingue",
+    "feature2Desc": "Tous nos services sont disponibles en français, arabe et anglais.",
+    "feature3Title": "Résultats",
+    "feature3Desc": "Nous mesurons notre succès au vôtre — placement et satisfaction."
+  },
+  "services": {
+    "eyebrow": "Nos services",
+    "title": "Deux axes pour faire avancer votre carrière",
+    "subtitle": "Choisissez le parcours qui correspond à votre objectif. Chaque axe propose plusieurs niveaux d'accompagnement.",
+    "cta": "Voir les forfaits",
+    "linkedin": {
+      "title": "LinkedIn & Marque Personnelle",
+      "description": "Optimisation complète de votre profil, stratégie de contenu et développement de votre réseau professionnel."
+    },
+    "career": {
+      "title": "Boost Carrière",
+      "description": "CV percutants, lettres de motivation, candidatures ciblées et préparation aux entretiens en entreprise."
+    }
+  },
+  "packages": {
+    "eyebrow": "Nos forfaits",
+    "title": "Choisissez le forfait adapté à votre projet",
+    "subtitle": "De l'essentiel à l'accompagnement premium — plusieurs niveaux pour chaque parcours.",
+    "popular": "Le plus populaire",
+    "from": "À partir de",
+    "select": "Choisir ce forfait",
+    "currency": "DH",
+    "tabs": {
+      "linkedin": "LinkedIn",
+      "career": "Carrière"
+    },
+    "linkedin": {
+      "starter": {
+        "name": "Profil Express",
+        "price": "150 DH",
+        "tagline": "Rafraîchissement rapide",
+        "features": [
+          "Réécriture du titre et de la section À propos",
+          "Optimisation des expériences",
+          "Conseils sur la photo de profil",
+          "Livraison sous 48h"
+        ]
+      },
+      "pro": {
+        "name": "LinkedIn Pro",
+        "price": "300 DH",
+        "tagline": "Profil 100% optimisé",
+        "features": [
+          "Tout le forfait Express",
+          "Bannière personnalisée",
+          "SEO compétences et mots-clés",
+          "5 modèles de messages de prospection",
+          "1 révision incluse"
+        ]
+      },
+      "premium": {
+        "name": "Personal Brand",
+        "price": "500 DH",
+        "tagline": "Devenez référence dans votre secteur",
+        "features": [
+          "Tout le forfait Pro",
+          "Calendrier de contenu (4 semaines)",
+          "Stratégie de prospection",
+          "10 idées de posts rédigées",
+          "Suivi mensuel"
+        ]
+      }
+    },
+    "career": {
+      "starter": {
+        "name": "CV Essentiel",
+        "price": "300 DH",
+        "tagline": "L'essentiel pour postuler",
+        "features": [
+          "CV professionnel (1 langue)",
+          "Modèle de lettre de motivation",
+          "Conseils de mise en page ATS",
+          "1 révision incluse"
+        ]
+      },
+      "pro": {
+        "name": "Boost Pro",
+        "price": "500 DH",
+        "tagline": "Pour candidater sérieusement",
+        "features": [
+          "CV en 2 langues",
+          "Optimisation LinkedIn complète",
+          "Lettre de motivation personnalisée",
+          "Liste de 10 offres ciblées",
+          "2 révisions incluses"
+        ]
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "Notre démarche",
+    "title": "Un processus simple et transparent",
+    "step1Title": "Choisissez votre forfait",
+    "step1Desc": "Parcourez nos offres et sélectionnez le forfait adapté à votre projet.",
+    "step2Title": "Commandez en ligne",
+    "step2Desc": "Renseignez vos coordonnées et procédez au paiement sécurisé en ligne.",
+    "step3Title": "Réalisation",
+    "step3Desc": "Nous produisons vos livrables avec soin et révisons jusqu'à votre satisfaction.",
+    "step4Title": "Suivi",
+    "step4Desc": "Nous restons disponibles pour les questions et l'accompagnement continu."
+  },
+  "booking": {
+    "eyebrow": "Commander",
+    "title": "Commandez votre forfait",
+    "subtitle": "Sélectionnez votre service et forfait, puis renseignez vos coordonnées pour procéder au paiement.",
+    "bullets": [
+      "Livraison dans les délais convenus",
+      "Révisions incluses selon votre forfait",
+      "Support disponible après livraison"
+    ],
+    "sectionOrder": "Votre commande",
+    "sectionContact": "Vos coordonnées",
+    "fullName": "Nom complet",
+    "email": "Adresse email",
+    "phone": "Téléphone (WhatsApp si possible)",
+    "service": "Service souhaité",
+    "selectService": "Sélectionnez un service",
+    "linkedinService": "LinkedIn & Marque Personnelle",
+    "careerService": "Boost Carrière",
+    "package": "Forfait",
+    "selectPackage": "Sélectionnez un forfait",
+    "consentLabel": "J'accepte que mes données personnelles soient traitées conformément à la loi 09-08 (CNDP — Maroc) et au RGPD pour les destinataires en Europe, dans le but exclusif de traiter ma commande.",
+    "consentRequired": "Vous devez accepter la politique de confidentialité pour continuer.",
+    "privacyLink": "En savoir plus sur notre politique de confidentialité",
+    "submit": "Confirmer et payer",
+    "submitting": "Envoi en cours...",
+    "successTitle": "Commande confirmée !",
+    "successMessage": "Merci. Vous allez être redirigé vers le paiement.",
+    "errorTitle": "Erreur",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement."
+  },
+  "payment": {
+    "eyebrow": "Paiement",
+    "title": "Paiement simple et sécurisé",
+    "subtitle": "Réglez en ligne en quelques secondes. Visa, Mastercard, Apple Pay et Google Pay acceptés.",
+    "cardDesc": "Paiement 100% sécurisé et chiffré. Vos coordonnées bancaires ne sont jamais stockées sur nos serveurs.",
+    "cardCta": "Payer maintenant",
+    "secure": "Paiement sécurisé",
+    "encrypted": "Données chiffrées SSL",
+    "noStorage": "Aucune carte enregistrée",
+    "confirmNote": "Après paiement, vous recevez une confirmation par email. Nous démarrons votre prestation dans la journée."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "q1": "En quelles langues travaillez-vous ?",
+    "a1": "Nous travaillons en français, arabe et anglais. Vous pouvez choisir la langue de vos livrables.",
+    "q2": "Combien de temps prend la livraison ?",
+    "a2": "Entre 48 heures (forfait Express) et 2 semaines (forfait Boost Pro). Le délai exact est confirmé après validation de votre commande.",
+    "q3": "Puis-je payer en plusieurs fois ?",
+    "a3": "Oui, pour les forfaits Pro et Personal Brand nous proposons un paiement en 2 fois sans frais. Mentionnez-le lors de votre commande.",
+    "q4": "Garantissez-vous un emploi ?",
+    "a4": "Nous garantissons un dossier de qualité professionnelle, pas le résultat final qui dépend de nombreux facteurs externes. Cela dit, notre taux de placement dépasse 70%.",
+    "q5": "Mes données sont-elles protégées ?",
+    "a5": "Oui. Vos données sont traitées conformément à la loi 09-08 (CNDP Maroc) et au RGPD européen. Elles sont utilisées uniquement pour traiter votre commande et ne sont jamais revendues."
+  },
+  "footer": {
+    "tagline": "Votre passerelle vers une carrière internationale.",
+    "rights": "Tous droits réservés.",
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "contact": "Contact",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
+    "imprint": "Mentions légales"
+  },
+  "language": {
+    "french": "Français",
+    "arabic": "العربية",
+    "english": "English"
+  }
+}
