@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { X, ArrowLeft, Copy, Check } from "lucide-react";
+import Image from "next/image";
 
 type Locale = "fr" | "ar" | "en";
 type Service = "linkedin" | "career";
@@ -288,17 +289,14 @@ export function ChatBot({ locale }: { locale: string }) {
                 <p className="text-xs text-slate-500 mb-2">{t.payTo}</p>
                 <div className="rounded-xl overflow-hidden border border-slate-200 mb-3">
                   {/* Bank header */}
-                  <div
-                    className="flex items-center gap-2 px-3 py-2.5"
-                    style={{ background: "#E30613" }}
-                  >
-                    {/* Star icon approximating Attijariwafa logo */}
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
-                      <path d="M12 2l2.09 6.26L20.18 10l-5.18 3.74L16.18 20 12 16.27 7.82 20l1.18-6.26L3.82 10l6.09-1.74z" />
-                    </svg>
-                    <span className="text-sm font-bold text-white tracking-wide">
-                      attijariwafa bank
-                    </span>
+                  <div className="flex items-center justify-center bg-white px-4 py-3">
+                    <Image
+                      src="/attijariwafa-logo.png"
+                      alt="Attijariwafa bank"
+                      width={140}
+                      height={109}
+                      className="object-contain"
+                    />
                   </div>
                   {/* RIB */}
                   <div className="bg-red-50 px-3 py-2.5">
