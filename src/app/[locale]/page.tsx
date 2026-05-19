@@ -10,6 +10,7 @@ import { Payment } from "@/components/Payment";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { ChatBot } from "@/components/ChatBot";
 
 export default async function HomePage({
   params,
@@ -34,6 +35,7 @@ export default async function HomePage({
       </main>
       <Footer locale={locale} />
       <WhatsAppButton locale={locale} />
+      <ChatBot locale={locale} />
     </>
   );
 }
